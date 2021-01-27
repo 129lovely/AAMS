@@ -114,7 +114,7 @@ def empty_dir(path):
             elif os.path.isdir(file_path):
                 shutil.rmtree(file_path)
         except Exception as e:
-            print 'Warning: {}'.format(e)
+            print('Warning: {}'.format(e))
 
 
 def create_dir(path):
